@@ -121,3 +121,11 @@ pub use crate::server::{HttpServer, ServerError, ServerRequest, ServerResponse};
 
 pub use crate::common::headers::{Headers, MediaType};
 pub use crate::common::{Body, Method, Version};
+
+pub use crate::connection::{ConnectionError, HttpConnection};
+pub use crate::request::{Request, RequestError};
+pub use crate::response::{Response, StatusCode};
+pub use crate::server::{HttpServer, ServerError, ServerRequest, ServerResponse};
+
+pub use crate::common::headers::{Headers, MediaType};
+pub use crate::common::{Body, Method, Version}
